@@ -1,3 +1,5 @@
-theme: jekyll-theme-hacker
+remote_theme: "mmistakes/minimal-mistakes@4.26.2"
 title: Michael R. Walton
 description: Coder Guy
+plugins:
+  - jekyll-include-cache
