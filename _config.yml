@@ -7,6 +7,17 @@ description: Coder Guy
 plugins:
   - jekyll-include-cache
 
+author:
+  name: "Michael R. Walton"
+  avatar: /assets/profile.jpeg
+  location: Boston, MA
+  links:
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/michaelrwalton"
+    - label: "LinkedIn"
+      icon: "fab fa-fw fa-linkedin"
+      url: "https://linkedin.com/in/michaelrwalton"
 defaults:
   # _pages
   - scope:
@@ -14,4 +25,4 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false
