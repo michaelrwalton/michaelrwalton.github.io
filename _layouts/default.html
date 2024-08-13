@@ -20,33 +20,20 @@
     {% else %}
         {% assign url = site.url | append: site.baseurl | append: page.url %}
     {% endif %}
-    <meta name="description" content="{{ desc }}">
     <link rel="stylesheet" href="/css/main.css">
     {% if site.favicon %}
         <link rel="icon" type="image/ico" href="{{ site.favicon_location }}">
         <link rel="shortcut-icon" type="image/ico" href="{{ site.favicon_location }}">
     {% endif %}
-    <!-- Facebook Open Graph -->
-    <meta name="og:description" content="{{ desc }}">
-    <meta name="og:title" content="{{ site.title }}">
-    <meta name="og:url" content="{{ url }}">
-    <meta name="og:type" content="article">
-    {% if site.og_image %}
-        <meta name="og:image" content="{{ site.og_image }}">
-    {% endif %}
-    {% if site.facebook_id %}
-        <meta name="fb:admins" content="{{ site.facebook_id }}">
-    {% endif %}
-    <!-- Twitter -->
+    <meta name="description" property="og:description" content="{{desc}}">
+    <meta name="title" property="og:title"content="{{ site.title }}">
+    <meta name="url" property="og:url" content="{{ url }}">
+    <meta name="og:type" content="Resume">
+
     <meta name="twitter:card" content="summary">
     <meta name="twitter:title" content="{{ site.title }}">
     <meta name="twitter:description" content="{{ desc }}">
     <meta name="twitter:url" content="{{ url }}">
-    {% if site.twitter_image %}
-        <meta name="twitter:image" content="{{ site.twitter_image }}">
-    {% else %}
-        <meta name="twitter:image" content="{{ site.profile_picture }}">
-    {% endif %}
 </head>
 <body>
     <div class="wrapper">
