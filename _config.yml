@@ -2,6 +2,8 @@ title: Michael R Walton
 url: "https://www.michaelrwalton.com"
 baseurl: ""
 include: ["_pages"]
+description: "Boston based Software Engineer"
+author: Michael Walton
 
 markdown: kramdown
 
@@ -9,6 +11,9 @@ sass:
     style: compressed
     sass_dir: _sass
 
-# nav:
-#  - name: "Resume"
-#    link: "resume.pdf"
+nav:
+ - name: "LinkedIn"
+   link: "https://www.linkedin.com/in/michaelrwalton"
+ - name: "GitHub"
+   link: "https://github.com/michaelrwalton"
+

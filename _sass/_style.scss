@@ -91,12 +91,14 @@ hr {
     padding: 10px 20px;
 }
 
-
 /* Divs */
 
 .container {
     max-width: $max-width;
     margin: auto;
+}
+.container p {
+    line-height: 1.6;
 }
 .wrapper {
     min-height: 100%;
@@ -149,6 +151,12 @@ hr {
 	#navlist li.nav-list {
 		margin: 0;
 	}
+}
+.work-history h1 {
+    text-align: center;
+}
+h3 {
+    text-align: center;
 }
 
 @import "typography";
