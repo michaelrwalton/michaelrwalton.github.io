@@ -10,8 +10,6 @@ Hi! I'm a Boston based software engineer with 15 years of experience developing 
 
 I have a passion for creating unique and fun experiences that are a joy to use, while being committed to using modern solutions and techniques to get there. I also am an advocate for improving the developer experience through strong DevOps processes and automation.
 
-Currently #lookingforwork.
-
 ---
 
 # Certifications
@@ -26,6 +24,15 @@ Currently #lookingforwork.
 
 Skip to: [Stellar Elements](#stellar-elements) - [Wayfair](#wayfair) - [Hill Holliday](#hill-holliday) - [ContentLead](#contentlead)
 
+# The College Board
+
+| ------------- | ------------- |
+| Title | Senior Software Engineer |
+| Dates | Oct 2024 - Present |
+
+### Summary
+
+Senior Software Engineer on the Item Cloud Teal team. Designing solutions to making higher education accessible to every student through innovative technology, building cutting edge applications.
 
 # Stellar Elements
 
